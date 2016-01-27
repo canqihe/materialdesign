@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#3949AB</color>
+    <color name="primary_light">#B3E5FC</color>
+    <color name="accent">#FF4081</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="bg_white">#ffffff</color>
+
+    <color name="status_orange">#e65100</color>
+    <!-- 900 -->
+    <color name="action_orange">#ff9800</color>
+    <!-- 500 -->
+    <color name="window_bg_orange">#ffb74d</color>
+    <!-- 300 -->
+    <color name="hei">#333333</color>
+    <color name="navigation_orange">#f57c00</color>
+    <!-- 700 -->
+    <color name="bg_orange">#ff4726</color>
+    <!-- 400 -->
+    <color name="fg_orange">#fff3e0</color>
+    <!-- 50 -->
+    <color name="control_normal_orange">#fff3e0</color>
+    <!-- 50 -->
+    <color name="control_highlight_orange">#ffcc80</color>
+    <!-- 200 -->
+    <color name="control_activated_orange">#ff6d00</color>
+    <!-- A700 -->
+    <color name="button_normal_orange">#ff4726</color>
+    <!-- 400 -->
+    <color name="fabCircleColor_light">#f50057</color>
+
+    <color name="colorPrimaryDarkTheme">#525065</color>
+    <color name="colorPrimaryDarkDarkTheme">#4a4959</color>
+    <color name="colorAccentDarkTheme">#03A9F4</color>
+    <color name="fabCircleColor_dark">#0288D1</color>
+
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="window_background_dark">#403f4d</color>
+
+</resources>

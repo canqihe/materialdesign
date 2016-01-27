@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--    <style name="Base.Theme.AppTheme" parent="Theme.AppTheme">
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:navigationBarColor">@color/primary</item>
+        </style>
+
+        <style name="Root.Theme.AppTheme" parent="Base.Theme.AppTheme">
+            &lt;!&ndash; 解决activity切换时的黑屏问题 &ndash;&gt;
+            <item name="android:windowIsTranslucent">false</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+        </style>
+
+        <style name="DefaultTheme" parent="Theme.AppTheme.Dark">
+            <item name="android:windowBackground">@color/hei</item>
+            <item name="android:textColor">@color/accent</item>
+            <item name="android:navigationBarColor">@color/hei</item>
+            <item name="android:textColorPrimary">@color/icons</item>
+        </style>-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:navigationBarColor">@color/blue_primary</item>
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryDark">@color/blue_primary</item>
+        <item name="colorAccent">@color/pink_two</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--<item name="android:windowTranslucentNavigation">true</item>&lt;!&ndash; navigation半透明 &ndash;&gt;-->
+    </style>
+
+</resources>

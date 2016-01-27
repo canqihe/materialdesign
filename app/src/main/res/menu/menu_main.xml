@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/men_action_refresh"
+        android:title="@string/men_action_refresh"/>
+
+    <item
+        android:id="@+id/men_action_read_mode"
+        android:title="@string/men_action_read_mode"/>
+
+    <item
+        android:id="@+id/menu_action_feedback"
+        android:title="@string/menu_action_feedback"/>
+</menu>

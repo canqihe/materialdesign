@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.maweiqi.androidl" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/DefaultTheme" >
+        <activity
+            android:name="com.maweiqi.androidl.MainActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.maweiqi.androidl.taransitions.TransitionsActivity"
+                android:configChanges="orientation|keyboardHidden" >
+        </activity>
+
+        <activity
+                android:name="com.maweiqi.androidl.taransitions.ExplodeActivity"
+                android:configChanges="orientation|keyboardHidden" >
+        </activity>
+
+        <activity
+                android:name="com.maweiqi.androidl.taransitions.FadeActivity"
+                android:configChanges="orientation|keyboardHidden" >
+        </activity>
+
+        <activity
+                android:name="com.maweiqi.androidl.taransitions.SlideActivity"
+                android:configChanges="orientation|keyboardHidden" >
+        </activity>
+        <activity
+                android:name="com.maweiqi.androidl.taransitions.ShareActivity"
+                android:configChanges="orientation|keyboardHidden" >
+        </activity>
+
+        <activity
+            android:theme="@style/WidgetTheme"
+            android:name="com.maweiqi.androidl.widget.WidgetActivity"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>
+    </application>
+
+</manifest>

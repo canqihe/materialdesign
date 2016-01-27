@@ -1,0 +1,1 @@
+include ':android_sample(5.0综合demo)', ':app', ':myapplication', ':ViewPagerIndicatorLibrary', ':loading', ':myapplication4'

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hecanqi.fragment.newsFragment">
+
+    <EditText
+        android:id="@+id/translate_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/edit_text_gd"
+        android:focusable="true"
+        android:gravity="top"
+        android:hint="@string/translate_content"
+        android:lines="12"
+        android:padding="10dp"
+        android:textColor="@color/font_high"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/speak"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_alignLeft="@+id/translate_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/translate_content"
+        android:layout_marginBottom="78dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/speak_gd"
+        android:text="@string/button_translate"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+
+    <ImageView
+        android:id="@+id/voice"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_alignEnd="@+id/translate_content"
+        android:layout_alignRight="@+id/translate_content"
+        android:layout_alignTop="@+id/speak"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/voice_pressed" />
+
+    <ImageView
+        android:id="@+id/clean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/translate_content"
+        android:layout_alignEnd="@+id/translate_content"
+        android:layout_alignRight="@+id/translate_content"
+        android:padding="10dp"
+        android:src="@mipmap/cleaneditext" />
+
+</RelativeLayout>

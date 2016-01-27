@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/colin/AndroidStudioProjects/android5.0_zonghe/ViewPagerIndicatorLibrary/build/intermediates/res/merged/androidTest/debug/color/vpi__light_theme.xml",
+        "source": "/Users/colin/AndroidStudioProjects/android5.0_zonghe/ViewPagerIndicatorLibrary/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
+    },
+    {
+        "merged": "/Users/colin/AndroidStudioProjects/android5.0_zonghe/ViewPagerIndicatorLibrary/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/colin/AndroidStudioProjects/android5.0_zonghe/ViewPagerIndicatorLibrary/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
+    }
+]

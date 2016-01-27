@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Super Nice</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="switchTheme">切换主题</string>
+    <string name="nav_news">阅读时刻</string>
+    <string name="nav_translate">翻译助手</string>
+    <string name="nav_history">历史今天</string>
+    <string name="nav_girl">美女秀秀</string>
+    <string name="nav_weather">天气预报</string>
+    <string name="drawer_item_title">应用</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="abouts">一款乱七八糟的应用</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="translate_content">在此文字输入或使用下方语音输入需要转译的内容</string>
+    <string name="translate_content_english">在此文字输入或使用下方语音输入需要翻译的内容 支持中英文互译</string>
+    <string name="button_translate">翻译</string>
+    <string name="about_app">Supper App集结了新闻,笑话,翻译,天气,等生活中常用工具于一体,解决用户手机安装多个APP以占用内存的问题.应用中全新的Google Material Design设计风格希望你会喜欢，有什么疑问或意见请直接加开发者微信。</string>
+    <string name="about_author">贺灿琪 90后 Android应用开发爱好者. \n由于生活太无聊,所以我决定开发一款属于自己的应用. \n个人微博:<a href="http://www.weibo.com/colinhi/">http://www.weibo.com/colinhi</a> \n个人微信:cartier_he </string>
+    <string name="thanks">Icons8提供图标：<a href="http://www.icons8.com">http://www.icons8.com</a> \n在这里你能找到iOS9 Android4.0 5.0 Windows8 10所提供的官方规范图标. \nCSDN博客:<a href="http://blog.csdn.net/">http://blog.csdn.net</a> \n感谢CSDN全球最大的中文开发者论坛提供疑问解答</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_setting">no</string>
+</resources>

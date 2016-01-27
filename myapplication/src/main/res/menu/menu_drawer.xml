@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_news"
+            android:checked="false"
+            android:icon="@mipmap/nav_history"
+            android:title="@string/nav_news" />
+        <item
+            android:id="@+id/nav_translate"
+            android:checked="false"
+            android:icon="@mipmap/nav_translate"
+            android:title="@string/nav_translate" />
+        <item
+            android:id="@+id/nav_weather"
+            android:checked="false"
+            android:icon="@mipmap/nav_weather"
+            android:title="@string/nav_weather" />
+        <item
+            android:id="@+id/nav_history"
+            android:checked="false"
+            android:icon="@mipmap/nav_news"
+            android:title="@string/nav_history" />
+        <item
+            android:id="@+id/nav_girl"
+            android:checked="false"
+            android:icon="@mipmap/nav_girl"
+            android:title="@string/nav_girl" />
+    </group>
+
+    <item android:title="@string/drawer_item_title">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:checked="false"
+                android:title="计时" />
+            <item
+                android:id="@+id/nav_about"
+                android:checked="false"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>
